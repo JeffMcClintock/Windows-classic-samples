@@ -26,6 +26,7 @@ private:
     float m_currentWidth;
 
     std::shared_ptr<CSceneGraphicsBitmap> LoadImage(std::wstring name);
+    void CreateDeviceBitmap(CSceneGraphicsBitmap* bitmap);
 
 public:
     CSampleMultiDPIImage();
